@@ -1,11 +1,13 @@
 # Tailwind Play Responsive and Dark mode
 
-You can use this jekyll repo
-https://github.com/duleorlovic/tailwind_play_responsive_dark_mode
-to develop tailwind pages locally with live reload.
+You can use this jekyll repo to develop tailwind pages locally with live reload.
 It is also deployed to Github Pages using Github Actions.
+Repo url is
 
-To develop locally you need to have Ruby and Yarn installed, and just clone the
+https://github.com/duleorlovic/tailwind_play_responsive_dark_mode
+
+
+To work locally you need Ruby and Yarn already installed, and just clone the
 repo and start jekyll:
 
 ```
@@ -19,9 +21,9 @@ Open your browser in [http://127.0.0.1:4000/](http://127.0.0.1:4000/) and make
 some changes to see that it is updated automatically in browser.
 
 For live site on `your-user-name.github.io/your-repo-name` you need to [enable
-github pages](#github-pages), and when you deploy to github main branch, new
+github pages](#github-pages), so when you deploy to github main branch, new
 Action will be triggered and your site will be live in a few moments at
-github.io. For example for this repo it is:
+github.io. Live page for this repo it is:
 
 https://duleorlovic.github.io/tailwind_play_responsive_dark_mode/
 

@@ -1,5 +1,24 @@
 # Tailwind Play Responsive and Dark mode
 
+You can use this jekyll to develop tailwind pages locally with live reload.
+It is deployed to Github Pages using Github Actions.
+
+To develop locally just clone the repo and start jekyll
+You need to have Ruby and Node already installed.
+
+```
+git clone git@github.com:duleorlovic/tailwind_play_responsive_dark_mode.git
+cd tailwind_play_responsive_dark_mode
+bundle
+yarn
+jekyll
+bundle exec jekyll serve --livereload
+```
+Open your browser in [http://127.0.0.1:4000/](http://127.0.0.1:4000/) and make
+some changes to see that it is updated automatically in browser.
+
+# Start from scracth
+
 Install jekyll
 ```
 gem install jekyll
@@ -172,4 +191,6 @@ branch`.
 
 Also you need to enable Actions to `Read and write permissions` (`Workflows have
 read and write permissions in the repository for all scopes.`)
-https://github.com/duleorlovic/tailwind_play_responsive_dark_mode/settings/actions
+
+After next commit your site should be live, for example
+https://duleorlovic.github.io/tailwind_play_responsive_dark_mode/

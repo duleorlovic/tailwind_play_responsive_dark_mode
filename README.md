@@ -1,21 +1,29 @@
 # Tailwind Play Responsive and Dark mode
 
-You can use this jekyll to develop tailwind pages locally with live reload.
-It is deployed to Github Pages using Github Actions.
+You can use this jekyll repo
+https://github.com/duleorlovic/tailwind_play_responsive_dark_mode
+to develop tailwind pages locally with live reload.
+It is also deployed to Github Pages using Github Actions.
 
-To develop locally just clone the repo and start jekyll
-You need to have Ruby and Node already installed.
+To develop locally you need to have Ruby and Yarn installed, and just clone the
+repo and start jekyll:
 
 ```
 git clone git@github.com:duleorlovic/tailwind_play_responsive_dark_mode.git
 cd tailwind_play_responsive_dark_mode
 bundle
 yarn
-jekyll
 bundle exec jekyll serve --livereload
 ```
 Open your browser in [http://127.0.0.1:4000/](http://127.0.0.1:4000/) and make
 some changes to see that it is updated automatically in browser.
+
+For live site on `your-user-name.github.io/your-repo-name` you need to [enable
+github pages](#github-pages), and when you deploy to github main branch, new
+Action will be triggered and your site will be live in a few moments at
+github.io. For example for this repo it is:
+
+https://duleorlovic.github.io/tailwind_play_responsive_dark_mode/
 
 # Start from scracth
 
@@ -126,7 +134,7 @@ and see in the browser with live reload
 bundle exece jekyll serve --livereload
 ```
 
-# Github pages
+# Github Actions
 
 Since `jekyll-postcss` is not whitelisted on [github
 pages](https://pages.github.com/versions/) we have to use some machine to
@@ -135,14 +143,6 @@ Since it will be run on ubuntu you need to add that platform to Gemfile.lock
 
 ```
 bundle lock --add-platform x86_64-linux
-```
-
-Enabling Github Pages you get url `your-user-name.github.io/your-repo-name` so
-out that in jekyll config
-```
-# _config.yml
-url: "https://duleorlovic.github.com"
-baseurl: "tailwind_play_responsive_dark_mode"
 ```
 
 Create configuration for Actions
@@ -184,7 +184,17 @@ jobs:
 After you commit and push to main branch you can see the Actions
 https://github.com/duleorlovic/tailwind_play_responsive_dark_mode/actions
 
-Now enable Pages in Settings -> Pages , for example for this repo it is
+# Github pages
+
+Enabling Github Pages you get url `your-user-name.github.io/your-repo-name` so
+update this jekyll production config
+```
+# _config.production.yml
+url: "https://duleorlovic.github.com"
+baseurl: "tailwind_play_responsive_dark_mode"
+```
+
+Enable Pages in Settings -> Pages , for example for this repo it is
 https://github.com/duleorlovic/tailwind_play_responsive_dark_mode/settings/pages
 Just select the branch `gh-pages` and leave the `Source` to be `Deploy from a
 branch`.
@@ -192,5 +202,5 @@ branch`.
 Also you need to enable Actions to `Read and write permissions` (`Workflows have
 read and write permissions in the repository for all scopes.`)
 
-After next commit your site should be live, for example
+After next commit your site should be live for example
 https://duleorlovic.github.io/tailwind_play_responsive_dark_mode/

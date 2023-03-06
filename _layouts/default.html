@@ -7,6 +7,43 @@
     <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
   </head>
   <body>
-    {{ content }}
-  </body>
-</html>
+<div class='h-screen'>
+  <div class='flex h-1/2'>
+    <iframe class='flex-none border w-[28rem] bg-slate-50' srcDoc='
+      <html>
+        <head>
+          <title>TailwindcssTips</title>
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+        </head>
+
+        <body>
+          {{ content | replace: "'", "\'" }}
+        </body>
+      </html>
+      '>
+    </iframe>
+    <div class='flex-1 border'>
+      {{ content }}
+    </div>
+  </div>
+  <div class='flex dark h-1/2'>
+    <iframe class='flex-none border w-[28rem]' srcDoc='
+      <html>
+        <head>
+          <title>TailwindcssTips</title>
+          <meta name="viewport" content="width=device-width,initial-scale=1">
+          <link rel="stylesheet" href="{{ "/assets/css/main.css" | relative_url }}">
+        </head>
+
+        <body class="bg-black dark">
+          {{ content | replace: "'", "\'" }}
+        </body>
+      </html>
+      '>
+    </iframe>
+    <div class='flex-1 bg-black border'>
+      {{ content }}
+    </div>
+  </div>
+</div>

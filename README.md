@@ -72,7 +72,7 @@ module.exports = {
 }
 HERE_DOC
 ```
-Remove `main.scss` and include tailwind
+Remove `main.scss` and add tailwind directives to css
 ```
 cat > assets/css/main.css << HERE_DOC
 ---
@@ -89,3 +89,16 @@ git add .
 git commit -m"Add tailwindcss"
 ```
 
+Add some tailwind classes
+
+```
+cat >> index.md << HERE_DOC
+<div class="text-red-500">
+  Text red 500
+</div>
+HERE_DOC
+```
+and see in the browser with live reload
+```
+bundle exece jekyll serve --livereload
+```

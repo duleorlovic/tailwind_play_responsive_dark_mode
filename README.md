@@ -195,7 +195,7 @@ baseurl: "tailwind_play_responsive_dark_mode"
 ```
 
 Enable Pages in Settings -> Pages , for example for this repo it is
-https://github.com/duleorlovic/tailwind_play_responsive_dark_mode/settings/pages
+[/settings/pages](settings/pages)
 Just select the branch `gh-pages` and leave the `Source` to be `Deploy from a
 branch`.
 

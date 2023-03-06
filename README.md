@@ -162,5 +162,14 @@ jobs:
           publish_dir: ./_site
 ```
 
-and enable it on Settings -> Pages , for example for this repo it is
+After you commit and push to main branch you can see the Actions
+https://github.com/duleorlovic/tailwind_play_responsive_dark_mode/actions
+
+Now enable Pages in Settings -> Pages , for example for this repo it is
 https://github.com/duleorlovic/tailwind_play_responsive_dark_mode/settings/pages
+Just select the branch `gh-pages` and leave the `Source` to be `Deploy from a
+branch`.
+
+Also you need to enable Actions to `Read and write permissions` (`Workflows have
+read and write permissions in the repository for all scopes.`)
+https://github.com/duleorlovic/tailwind_play_responsive_dark_mode/settings/actions

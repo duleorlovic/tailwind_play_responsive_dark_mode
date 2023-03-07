@@ -1,12 +1,15 @@
 # Tailwind Play Responsive and Dark mode
 
-You can use this jekyll repo to develop tailwind pages locally with live reload.
-It is also deployed to Github Pages using Github Actions.
-Repo url is
+You can use this jekyll repo to develop tailwind pages: locally, with live
+reload, so you are sure it looks nice on both responsive and dark mode.
+
+It can be deployed to Github Pages using Github Actions.
+
+This repo url is
 
 https://github.com/duleorlovic/tailwind_play_responsive_dark_mode
 
-Here is a preview
+Here is a preview how I updated button color only in dark mode
 
 [Screencast from 07.03.2023. 12:01:13.webm](https://user-images.githubusercontent.com/1426092/223404387-c3ee6d53-b84d-4664-a08e-56cbb4886ef9.webm)
 

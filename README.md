@@ -150,7 +150,6 @@ bundle lock --add-platform x86_64-linux
 Create configuration for Actions
 ```
 # .github/workflows/github-pages.yml
-
 name: Build and deploy this site to GitHub Pages
 
 on:
@@ -176,6 +175,7 @@ jobs:
         uses: limjh16/jekyll-action-ts@v2
         with:
           enable_cache: true
+          custom_opts: "--config _config.yml,_config.production.yml"
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:

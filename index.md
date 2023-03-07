@@ -1,6 +1,5 @@
 ---
-layout: default
-title: "Happy Jekylling!"
+layout: responsive_dark
 ---
 
 <div class='p-3'>
@@ -15,7 +14,7 @@ title: "Happy Jekylling!"
           Product Engineer
         </p>
       </div>
-      <button class='px-4 py-1 text-sm font-semibold text-purple-600 border rounded-full hover:text-white hover:bg-purple-600 hover:border-transparent dark:text-purple-300'>
+      <button class='px-4 py-1 text-sm font-semibold text-purple-600 border rounded-full hover:text-white hover:bg-purple-600 hover:border-transparent dark:text-yellow-300'>
         Message
       </button>
     </div>

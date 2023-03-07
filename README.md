@@ -5,14 +5,17 @@ reload, so you are sure it looks nice on both responsive and dark mode.
 
 It can be deployed to Github Pages using Github Actions.
 
-This repo url is
+This repo is hosten on Github
 
 https://github.com/duleorlovic/tailwind_play_responsive_dark_mode
+
+## Preview
 
 Here is a preview how I updated button color only in dark mode
 
 [Screencast from 07.03.2023. 12:01:13.webm](https://user-images.githubusercontent.com/1426092/223404387-c3ee6d53-b84d-4664-a08e-56cbb4886ef9.webm)
 
+## Local
 
 To work locally you need Ruby and Yarn already installed, and just clone the
 repo and start jekyll:
@@ -27,14 +30,18 @@ bundle exec jekyll serve --livereload
 Open your browser in [http://127.0.0.1:4000/](http://127.0.0.1:4000/) and make
 some changes to see that it is updated automatically in browser.
 
-For live site on `your-user-name.github.io/your-repo-name` you need to [enable
-github pages](#github-pages), so when you deploy to github main branch, new
-Action will be triggered and your site will be live in a few moments at
-github.io. Live page for this repo it is:
+## Live
+
+Live page for this repo it is:
 
 https://duleorlovic.github.io/tailwind_play_responsive_dark_mode/
 
-# Start from scracth
+For live site on `your-user-name.github.io/your-repo-name` you need to [enable
+github pages](#github-pages), so when you deploy to github main branch, new
+Action will be triggered and your site will be live in a few moments at
+github.io.
+
+## Start from scratch
 
 Install jekyll
 ```

@@ -15,7 +15,9 @@ Here is a preview how I updated button color only in dark mode
 
 [Screencast from 07.03.2023. 12:01:13.webm](https://user-images.githubusercontent.com/1426092/223404387-c3ee6d53-b84d-4664-a08e-56cbb4886ef9.webm)
 
-## Local
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Local develoment
 
 To work locally you need Ruby and Yarn already installed, and just clone the
 repo and start jekyll:
@@ -30,7 +32,9 @@ bundle exec jekyll serve --livereload
 Open your browser in [http://127.0.0.1:4000/](http://127.0.0.1:4000/) and make
 some changes to see that it is updated automatically in browser.
 
-## Live
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Live demo
 
 Live page for this repo it is:
 
@@ -40,6 +44,8 @@ For live site on `your-user-name.github.io/your-repo-name` you need to [enable
 github pages](#github-pages), so when you deploy to github main branch, new
 Action will be triggered and your site will be live in a few moments at
 github.io.
+
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Start from scratch
 
@@ -150,7 +156,9 @@ and see in the browser with live reload
 bundle exece jekyll serve --livereload
 ```
 
-# Github Actions
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Github Actions
 
 Since `jekyll-postcss` is not whitelisted on [github
 pages](https://pages.github.com/versions/) we have to use some machine to
@@ -200,7 +208,9 @@ jobs:
 After you commit and push to main branch you can see the Actions
 https://github.com/duleorlovic/tailwind_play_responsive_dark_mode/actions
 
-# Github pages
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Github pages
 
 Enabling Github Pages you get url `your-user-name.github.io/your-repo-name` so
 update this jekyll production config
@@ -220,3 +230,35 @@ read and write permissions in the repository for all scopes.`)
 
 After next commit your site should be live for example
 https://duleorlovic.github.io/tailwind_play_responsive_dark_mode/
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Authors ✍️
+
+https://github.com/duleorlovic
+
+## 🤝 Contributors
+
+Contributions, issues, and feature requests are greatly appreciated!
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "improvements".
+
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/yourfeaturename)
+- Commit your Changes (git commit -m 'Add suggested feature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
+
+Feel free to check the [issues page](https://github.com/DeVuDeveloper/jekyll-tailwind./issues/1).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 📝 License
+
+This project is licensed by [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## Show your support 💪
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#top">back to top</a>)</p>

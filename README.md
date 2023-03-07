@@ -6,6 +6,10 @@ Repo url is
 
 https://github.com/duleorlovic/tailwind_play_responsive_dark_mode
 
+Here is a preview
+
+[Screencast from 07.03.2023. 12:01:13.webm](https://user-images.githubusercontent.com/1426092/223404387-c3ee6d53-b84d-4664-a08e-56cbb4886ef9.webm)
+
 
 To work locally you need Ruby and Yarn already installed, and just clone the
 repo and start jekyll:

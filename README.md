@@ -46,6 +46,7 @@ Action will be triggered and your site will be live in a few moments at
 github.io.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Start from scratch
 
 Install jekyll
@@ -156,6 +157,7 @@ bundle exece jekyll serve --livereload
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Github Actions
 
 Since `jekyll-postcss` is not whitelisted on [github
@@ -207,6 +209,7 @@ After you commit and push to main branch you can see the Actions
 https://github.com/duleorlovic/tailwind_play_responsive_dark_mode/actions
 
 <p align="right">(<a href="#top">back to top</a>)</p>
+
 ## Github pages
 
 Enabling Github Pages you get url `your-user-name.github.io/your-repo-name` so
@@ -227,3 +230,35 @@ read and write permissions in the repository for all scopes.`)
 
 After next commit your site should be live for example
 https://duleorlovic.github.io/tailwind_play_responsive_dark_mode/
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## Authors ✍️
+
+https://github.com/duleorlovic
+
+## 🤝 Contributors
+
+Contributions, issues, and feature requests are greatly appreciated!
+
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "improvements".
+
+- Fork the Project
+- Create your Feature Branch (git checkout -b feature/yourfeaturename)
+- Commit your Changes (git commit -m 'Add suggested feature')
+- Push to the Branch (git push origin feature/AmazingFeature)
+- Open a Pull Request
+
+Feel free to check the [issues page](https://github.com/DeVuDeveloper/jekyll-tailwind./issues/1).
+
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+## 📝 License
+
+This project is licensed by [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
+## Show your support 💪
+
+Give a ⭐️ if you like this project!
+
+<p align="right">(<a href="#top">back to top</a>)</p>

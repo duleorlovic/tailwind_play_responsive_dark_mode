@@ -225,8 +225,9 @@ Enable Pages in Settings -> Pages , for example for this repo it is
 Just select the branch `gh-pages` and leave the `Source` to be `Deploy from a
 branch`.
 
-Also you need to enable Actions to `Read and write permissions` (`Workflows have
-read and write permissions in the repository for all scopes.`)
+Also you need to enable Actions to have write permissions. Select `Read and write permissions` `Workflows have
+read and write permissions in the repository for all scopes.`
+![image](https://user-images.githubusercontent.com/1426092/223695663-1d7fefd2-5a50-4c91-9084-91526a82b6e1.png)
 
 After next commit your site should be live for example
 https://duleorlovic.github.io/tailwind_play_responsive_dark_mode/
